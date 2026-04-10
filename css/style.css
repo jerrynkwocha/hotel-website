@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* NAV */
+.navbar {
+  padding: 20px;
+  background: black;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url('../images/hotel.jpg') center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
