@@ -1,353 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Grand Meridian | Luxury Hotel & Resort</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <title>Luxury Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
 
-  <!-- NAV -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-logo">
-      <span class="logo-text">The Grand Meridian</span>
-      <span class="logo-tag">Est. 1989</span>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#rooms">Rooms</a></li>
-      <li><a href="#amenities">Amenities</a></li>
-      <li><a href="#about">Our Story</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-    </ul>
-    <a href="https://wa.me/2347037520334" class="nav-cta" target="_blank">Book Now</a>
-    <button class="hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
+<nav class="navbar">
+  <div class="logo">Luxury Hotel</div>
 
-  <!-- MOBILE MENU -->
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#rooms" class="mobile-link">Rooms</a>
-    <a href="#amenities" class="mobile-link">Amenities</a>
-    <a href="#about" class="mobile-link">Our Story</a>
-    <a href="#gallery" class="mobile-link">Gallery</a>
-    <a href="https://wa.me/2347037520334" class="mobile-cta" target="_blank">Book Now on WhatsApp</a>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
   </div>
+</nav>
 
-  <!-- HERO -->
-  <section class="hero" id="home">
-    <div class="hero-bg">
-      <div class="hero-overlay"></div>
-    </div>
-    <div class="hero-content">
-      <p class="hero-eyebrow reveal">Luxury Redefined</p>
-      <h1 class="hero-title reveal">Where Every Stay<br><em>Becomes a Story</em></h1>
-      <p class="hero-subtitle reveal">Award-winning hospitality, timeless elegance, and curated experiences tailored to you.</p>
-      <div class="hero-actions reveal">
-        <a href="https://wa.me/2347037520334" class="btn-primary" target="_blank">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-          Reserve via WhatsApp
-        </a>
-        <a href="#rooms" class="btn-ghost">Explore Rooms</a>
-      </div>
-    </div>
-    <div class="hero-scroll-hint">
-      <span>Scroll</span>
-      <div class="scroll-line"></div>
-    </div>
-    <div class="hero-badges reveal">
-      <div class="badge"><span class="badge-num">4.9★</span><span class="badge-label">Guest Rating</span></div>
-      <div class="badge-divider"></div>
-      <div class="badge"><span class="badge-num">50+</span><span class="badge-label">Luxury Suites</span></div>
-      <div class="badge-divider"></div>
-      <div class="badge"><span class="badge-num">35yr</span><span class="badge-label">Experience</span></div>
-    </div>
-  </section>
+<section id="home" class="hero">
+  <h1>Experience Luxury & Comfort</h1>
+  <p>Book your stay with us today</p>
+  <a href="#contact" class="btn">Book Now</a>
+</section>
 
-  <!-- TRUST BAR -->
-  <div class="trust-bar">
-    <div class="trust-inner">
-      <div class="trust-item">
-        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-        Safe & Secure Reservations
-      </div>
-      <div class="trust-item">
-        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        24/7 Concierge Support
-      </div>
-      <div class="trust-item">
-        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-        Flexible Check-in / Check-out
-      </div>
-      <div class="trust-item">
-        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
-        Award-Winning Hospitality
-      </div>
+<section id="rooms" class="rooms">
+  <h2>Our Rooms</h2>
+
+  <div class="room-container">
+
+    <div class="room-card">
+      <h3>Standard Room</h3>
+      <p>Comfortable and affordable stay.</p>
     </div>
+
+    <div class="room-card">
+      <h3>Deluxe Room</h3>
+      <p>Spacious room with premium features.</p>
+    </div>
+
+    <div class="room-card">
+      <h3>Executive Suite</h3>
+      <p>Luxury experience with top-class amenities.</p>
+    </div>
+
   </div>
+</section>
 
-  <!-- ROOMS -->
-  <section id="rooms" class="section rooms-section">
-    <div class="section-label">Accommodations</div>
-    <h2 class="section-title">Curated Rooms & Suites</h2>
-    <p class="section-sub">Every room is a sanctuary — designed to restore, inspire, and delight.</p>
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>
+    Our hotel offers world-class services, comfort, and a memorable experience.
+    Located in a serene environment, we ensure your stay is peaceful and enjoyable.
+  </p>
+</section>
 
-    <div class="rooms-grid">
+<section class="gallery">
+  <h2>Gallery</h2>
 
-      <div class="room-card" data-delay="0">
-        <div class="room-img-wrap">
-          <div class="room-img room-img-1"></div>
-          <div class="room-tag">From ₦45,000/night</div>
-        </div>
-        <div class="room-info">
-          <div class="room-meta">
-            <span>King Bed</span> <span class="dot">·</span> <span>28m²</span> <span class="dot">·</span> <span>City View</span>
-          </div>
-          <h3 class="room-name">Superior Room</h3>
-          <p class="room-desc">Elegant comfort with premium linen, rainfall shower, smart TV, and city views from a private balcony.</p>
-          <ul class="room-amenities">
-            <li>Free Wi-Fi</li>
-            <li>Mini Bar</li>
-            <li>Daily Housekeeping</li>
-            <li>Room Service</li>
-          </ul>
-          <a href="https://wa.me/2347037520334?text=I'd like to book the Superior Room" class="room-btn" target="_blank">Check Availability</a>
-        </div>
-      </div>
+  <div class="gallery-container">
+    <img src="images/hotel.jpg" />
+    <img src="images/hotel.jpg" />
+    <img src="images/hotel.jpg" />
+  </div>
+</section>
 
-      <div class="room-card featured" data-delay="100">
-        <div class="room-img-wrap">
-          <div class="room-img room-img-2"></div>
-          <div class="room-tag">From ₦85,000/night</div>
-          <div class="room-popular">Most Popular</div>
-        </div>
-        <div class="room-info">
-          <div class="room-meta">
-            <span>King Bed</span> <span class="dot">·</span> <span>48m²</span> <span class="dot">·</span> <span>Pool View</span>
-          </div>
-          <h3 class="room-name">Deluxe Suite</h3>
-          <p class="room-desc">Expansive suite with a private lounge, premium sound system, soaking tub, and panoramic pool views.</p>
-          <ul class="room-amenities">
-            <li>Butler Service</li>
-            <li>Jacuzzi</li>
-            <li>Private Lounge</li>
-            <li>Welcome Champagne</li>
-          </ul>
-          <a href="https://wa.me/2347037520334?text=I'd like to book the Deluxe Suite" class="room-btn" target="_blank">Check Availability</a>
-        </div>
-      </div>
+<section id="contact" class="contact">
+  <h2>Book a Room</h2>
 
-      <div class="room-card" data-delay="200">
-        <div class="room-img-wrap">
-          <div class="room-img room-img-3"></div>
-          <div class="room-tag">From ₦180,000/night</div>
-        </div>
-        <div class="room-info">
-          <div class="room-meta">
-            <span>2 Beds</span> <span class="dot">·</span> <span>120m²</span> <span class="dot">·</span> <span>Penthouse</span>
-          </div>
-          <h3 class="room-name">Presidential Suite</h3>
-          <p class="room-desc">Our most exclusive offering — a full-floor penthouse with private dining, rooftop terrace, and butler on call.</p>
-          <ul class="room-amenities">
-            <li>24hr Butler</li>
-            <li>Private Rooftop</li>
-            <li>Chef on Request</li>
-            <li>Airport Transfer</li>
-          </ul>
-          <a href="https://wa.me/2347037520334?text=I'd like to book the Presidential Suite" class="room-btn" target="_blank">Check Availability</a>
-        </div>
-      </div>
+  <p>Call or WhatsApp us to make a reservation.</p>
 
-    </div>
-  </section>
+  <a href="https://wa.me/2347037520334" class="btn">Chat on WhatsApp</a>
+</section>
 
-  <!-- AMENITIES -->
-  <section id="amenities" class="section amenities-section">
-    <div class="section-label">The Experience</div>
-    <h2 class="section-title">World-Class Amenities</h2>
-
-    <div class="amenities-grid">
-      <div class="amenity-card">
-        <div class="amenity-icon">
-          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M3 12l9-9 9 9M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9"/></svg>
-        </div>
-        <h4>Infinity Pool</h4>
-        <p>Rooftop infinity pool with panoramic skyline views, open sunrise to midnight.</p>
-      </div>
-      <div class="amenity-card">
-        <div class="amenity-icon">
-          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-        </div>
-        <h4>Luxury Spa</h4>
-        <p>A full-service spa with Thai massage, couples treatments, steam rooms and more.</p>
-      </div>
-      <div class="amenity-card">
-        <div class="amenity-icon">
-          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
-        </div>
-        <h4>Fine Dining</h4>
-        <p>Three award-winning restaurants serving continental, African, and fusion cuisine.</p>
-      </div>
-      <div class="amenity-card">
-        <div class="amenity-icon">
-          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-        </div>
-        <h4>Business Centre</h4>
-        <p>State-of-the-art conference rooms and co-working spaces with high-speed fibre.</p>
-      </div>
-      <div class="amenity-card">
-        <div class="amenity-icon">
-          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-        </div>
-        <h4>Fitness Centre</h4>
-        <p>24-hour gym with modern equipment, personal trainers, and yoga studios.</p>
-      </div>
-      <div class="amenity-card">
-        <div class="amenity-icon">
-          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-        </div>
-        <h4>Airport Transfers</h4>
-        <p>Complimentary chauffeur-driven airport pickup and drop-off for all suite guests.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS -->
-  <section class="testimonials-section">
-    <div class="section-label">What Guests Say</div>
-    <h2 class="section-title">Stories from Our Guests</h2>
-    <div class="testimonials-grid">
-      <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">"Absolutely breathtaking. The Presidential Suite was unlike anything I've experienced — the attention to detail, the views, the service. We'll be back every anniversary."</p>
-        <div class="testimonial-author">
-          <div class="author-avatar">AO</div>
-          <div>
-            <div class="author-name">Adaeze Okonkwo</div>
-            <div class="author-title">Lagos, Nigeria · Presidential Suite</div>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">"I've stayed in luxury hotels across 3 continents. The Grand Meridian competes with the very best. The spa alone is worth the trip."</p>
-        <div class="testimonial-author">
-          <div class="author-avatar">JM</div>
-          <div>
-            <div class="author-name">James Mwangi</div>
-            <div class="author-title">Nairobi, Kenya · Deluxe Suite</div>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
-        <p class="testimonial-text">"Booked via WhatsApp in under 3 minutes. The team was responsive, professional, and our room was ready early. This is what 5-star really means."</p>
-        <div class="testimonial-author">
-          <div class="author-avatar">SA</div>
-          <div>
-            <div class="author-name">Sarah Adeyemi</div>
-            <div class="author-title">Abuja, Nigeria · Superior Room</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section about-section">
-    <div class="about-inner">
-      <div class="about-img-block">
-        <div class="about-img-main"></div>
-        <div class="about-img-badge">
-          <div class="about-badge-num">35</div>
-          <div class="about-badge-label">Years of<br>Excellence</div>
-        </div>
-      </div>
-      <div class="about-text">
-        <div class="section-label">Our Story</div>
-        <h2 class="section-title" style="text-align:left;">A Legacy Built on<br><em>Impeccable Hospitality</em></h2>
-        <p>Since 1989, The Grand Meridian has stood as a landmark of luxury in West Africa. What began as a vision to offer truly world-class hospitality has grown into a legacy that has welcomed royalty, heads of state, and discerning travellers from across the globe.</p>
-        <p>We believe luxury isn't just about opulence — it's about genuine care, quiet attention to detail, and the feeling that every guest is our most important one.</p>
-        <div class="about-stats">
-          <div class="about-stat"><span class="stat-n">50,000+</span><span class="stat-l">Happy Guests</span></div>
-          <div class="about-stat"><span class="stat-n">12</span><span class="stat-l">Industry Awards</span></div>
-          <div class="about-stat"><span class="stat-n">100%</span><span class="stat-l">Satisfaction Goal</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section id="gallery" class="section gallery-section">
-    <div class="section-label">Gallery</div>
-    <h2 class="section-title">A Glimpse of Grandeur</h2>
-    <div class="gallery-grid">
-      <div class="gallery-item g-tall gallery-1"></div>
-      <div class="gallery-item gallery-2"></div>
-      <div class="gallery-item gallery-3"></div>
-      <div class="gallery-item g-wide gallery-4"></div>
-      <div class="gallery-item gallery-5"></div>
-    </div>
-  </section>
-
-  <!-- CTA STRIP -->
-  <section class="cta-strip">
-    <div class="cta-inner">
-      <div class="cta-text">
-        <h2>Ready to Experience<br><em>The Grand Meridian?</em></h2>
-        <p>Reserve in minutes via WhatsApp. Our team responds in under 5 minutes — day or night.</p>
-      </div>
-      <div class="cta-actions">
-        <a href="https://wa.me/2347037520334" class="btn-primary large" target="_blank">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-          Book on WhatsApp Now
-        </a>
-        <p class="cta-assurance">✓ Instant response &nbsp;·&nbsp; ✓ No hidden fees &nbsp;·&nbsp; ✓ Free cancellation</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <div class="footer-logo">The Grand Meridian</div>
-        <p>A world-class luxury hotel delivering unforgettable experiences since 1989.</p>
-        <div class="footer-socials">
-          <a href="https://wa.me/2347037520334" target="_blank" class="social-link">WhatsApp</a>
-          <a href="#" class="social-link">Instagram</a>
-          <a href="#" class="social-link">Facebook</a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h5>Explore</h5>
-        <a href="#rooms">Rooms & Suites</a>
-        <a href="#amenities">Amenities</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#about">Our Story</a>
-      </div>
-      <div class="footer-col">
-        <h5>Contact</h5>
-        <a href="https://wa.me/2347037520334" target="_blank">+234 703 752 0334</a>
-        <a href="mailto:reservations@grandmeridian.com">reservations@grandmeridian.com</a>
-        <p class="footer-address">123 Victoria Island Boulevard,<br>Lagos, Nigeria.</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 The Grand Meridian. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <!-- STICKY WHATSAPP BUTTON -->
-  <a href="https://wa.me/2347037520334" class="wa-float" target="_blank" aria-label="Chat on WhatsApp">
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-    <span class="wa-label">Book Now</span>
-  </a>
-
-  <script src="script.js"></script>
 </body>
 </html>
