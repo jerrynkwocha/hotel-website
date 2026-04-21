@@ -20,3 +20,52 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.btn {
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #c19b76;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.rooms {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.room-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.room-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gallery-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-container img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
